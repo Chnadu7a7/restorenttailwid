@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Restorent Landing Page Design</title>
+    <!-- link icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<!-- sm: -->
+<!-- lg: -->
+
+<body>
+    <main class="w-full h-full p-10">
+        <!-- desktop header  -->
+        <header class="w-full h-20 max-sm:hidden lg:block">
+            <nav class="flex justify-between items-center h-full p-5 ">
+                <div class="menu">
+                    <ul class="flex gap-10 font-bold">
+                        <li><a href="#" class="hover:text-lime-500">Home</a></li>
+                        <li><a href="#" class="hover:text-lime-500">Product</a></li>
+                        <li><a href="#" class="hover:text-lime-500">Recipe</a></li>
+                        <li><a href="#" class="hover:text-lime-500">About</a></li>
+                    </ul>
+                </div>
+                <div class="log-btn flex gap-4">
+                    <button
+                        class="lg:bg-orange-400 sm:bg-blue-400  px-8 py-2 font-bold rounded-3xl text-white shadow-2xl">Log
+                        in </button>
+                    <button class="bg-orange-100 px-8 py-2 font-bold rounded-3xl text-amber-500 shadow-2xl">Sign Up
+                    </button>
+                </div>
+            </nav>
+
+
+        </header>
+        <!-- mobile header -->
+        <header class="w-full h-20 max-sm:block lg:hidden">
+            <nav class="flex justify-between items-center h-full p-5 ">
+                <div class="menu font-bold">
+                    logo
+                </div>
+                <div>
+                    <i class="ri-menu-2-line"></i>
+                </div>
+            </nav>
+        </header>
+  <!-- ------------------------------------------------------------------- -->
+        <section class="  w-full  grid grid-cols-2 justify-center items-center  max-sm:block max-sm:grid max-sm:grid-cols-1 max-sm:justify-center max-sm:items-center">
+            <article class=" grid  justify-center items-center">
+                <div class= "   w-[500px] border rounded-3xl mx-30   p-10  grid  grid-cols-1 justify-center items-center">
+                    <i class='bx bx-dots-horizontal-rounded text-5xl' ></i>
+                    <img src="burger.png" class="w-[400px] h-[300px] justify-center items-center" alt="">
+                    <h1 class="font-bold text-3xl p-3">Classic burger</h1>
+                    <span>
+                        <button class="  border rounded-3xl px-5 font-semibold ">fat-26g</button>
+                        <button class="  border rounded-3xl px-5 font-semibold ">fat-26g</button>
+                        <button class="  border rounded-3xl px-5 font-semibold ">fat-26g</button>
+                        <button class="  border rounded-3xl px-5 font-semibold ">fat-26g</button>
+                    </span>
+                    <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus tempore in consequuntur voluptas nam aspernatur dicta quasi iusto fugiat repudiandae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, expedita!</p>
+                     <div class=" flex   p-3 ">
+                       <div class="  "> <button class="flex border rounded-3xl px-5 py-1 justify-center items-center "> <i class='bx bx-minus font-bold text-teal-400'></i> 0 <i class='bx bx-plus text-teal-400'></i></button></div>
+                        <div class="flex  inline-flex justify-end  ml-28"> <big  class="font-bold">$16 &nbsp;</big><button class=" text-teal-400 flex border rounded-3xl px-5 py-1 justify-center items-center ">  <i class='bx bx-cart text-teal-400 '></i> Add to cart</button></div>
+                     </div>
+                </div>
+            </article>
+            <article class="grid  grid-cols-2 ">
+                <div class="  grid  grid-cols-2  gap-5  w-[600px]   p-5  grid  justify-center items-center max-sm:grid max-sm:grid-cols-2   ">
+                    <div class=" border w-full p-4  rounded-t-3xl rounded-l-3xl"> 
+                        <i class='bx bx-dots-horizontal-rounded text-2xl' ></i>
+
+                        <img src="greenburger.png" alt="" class=" w-[250px] h-[150px] ">
+                        <h1 class="font-bold flex justify-center items-center">Green burger</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, dolor.</p>
+                        <div class=" flex   ">
+                            <div class="  "> <button class="flex border rounded-3xl px-1 py-1 justify-center items-center ">  <i class='bx bx-minus font-bold text-teal-400'> </i>  0  <i class='bx bx-plus text-teal-400'> </i></button></div>
+                            <div class="flex   ml-20"> <big class="font-bold" >$16   </big>  &nbsp;<button class="flex border rounded-3xl px-5 py-1 justify-center items-center ">  <i class='bx bx-cart text-teal-400 '></i> </button></div>
+                        </div>
+                    </div> 
+                    <div class=" border w-full p-4 rounded-t-3xl rounded-r-3xl "> 
+                        <i class='bx bx-dots-horizontal-rounded text-2xl' ></i>
+
+                        <img src="greenburger.png" alt="" class=" w-[250px] h-[150px]">
+                        <h1 class="font-bold flex justify-center items-center">Green burger</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, dolor.</p>
+                        <div class=" flex  ">
+                            <div class="  "> <button class="flex border rounded-3xl px-1 py-1 justify-center items-center ">  <i class='bx bx-minus font-bold text-teal-400'> </i>  0  <i class='bx bx-plus text-teal-400'> </i></button></div>
+                            <div class="flex   ml-20"> <big class="font-bold" >$16   </big>  &nbsp;<button class="flex border rounded-3xl px-5 py-1 justify-center items-center ">  <i class='bx bx-cart text-teal-400 '></i> </button></div>
+                        </div>
+                    </div>
+                    <div class=" border w-full p-4 rounded-b-3xl rounded-l-3xl "> 
+                        <i class='bx bx-dots-horizontal-rounded text-2xl' ></i>
+
+                        <img src="greenburger.png" alt="" class=" w-[250px] h-[150px]">
+                        <h1 class="font-bold flex justify-center items-center">Green burger</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, dolor.</p>
+                        <div class=" flex   ">
+                            <div class="  "> <button class="flex border rounded-3xl px-1 py-1 justify-center items-center ">  <i class='bx bx-minus font-bold text-teal-400'> </i>  0  <i class='bx bx-plus text-teal-400'> </i></button></div>
+                            <div class="flex   ml-20"> <big class="font-bold" >$16   </big>  &nbsp;<button class="flex border rounded-3xl px-5 py-1 justify-center items-center ">  <i class='bx bx-cart text-teal-400 '></i> </button></div>
+                        </div>
+                    </div> 
+                    <div class=" border w-full p-4 rounded-b-3xl rounded-r-3xl "> 
+                        <i class='bx bx-dots-horizontal-rounded text-2xl' ></i>
+
+                        <img src="greenburger.png" alt="" class=" w-[250px] h-[150px]">
+                        <h1 class="font-bold flex justify-center items-center">Green burger</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, dolor.</p>
+                        <div class=" flex   ">
+                            <div class="  "> <button class="flex border rounded-3xl px-3 py-1 justify-center items-center ">  <i class='bx bx-minus font-bold text-teal-400'> </i>  0  <i class='bx bx-plus text-teal-400'> </i></button></div>
+                             <div class="flex   ml-20"> <big class="font-bold" >$16   </big>  &nbsp;<button class="flex border rounded-3xl px-5 py-1 justify-center items-center ">  <i class='bx bx-cart text-teal-400 '></i> </button></div>
+                          </div>
+                    </div>
+                </div>
+                 <!-- <div class="flex-col">
+                    <div> <img src="greenburger.png" alt=""></div>
+                  <div> <img src="greenburger.png" alt=""></div>
+                 </div> -->
+                  
+            </article>
+
+        </section>
+    </main>
+</body>
+
+</html>
